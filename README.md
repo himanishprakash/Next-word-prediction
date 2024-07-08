@@ -25,6 +25,7 @@ The dataset consists of 1000 rows of cricket commentary text, amounting to appro
 
 ## Model Training Setting
 •⁠  ⁠*RNN & LSTM*: Both models were trained with a single hidden layer for 50 epochs.
+
 •⁠  ⁠*GPT-2 Models*: The base GPT-2 model was used as-is, while the fine-tuned GPT-2 model was trained for 3 epochs on the cricket commentary dataset.
 
 ## Results
