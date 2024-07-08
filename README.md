@@ -26,13 +26,9 @@ The dataset consists of 1000 rows of cricket commentary text, amounting to appro
 The models' outputs were compared using a web interface developed with Gradio. Users can input a prompt, adjust the number of words to predict, max length, and temperature settings for the GPT-2 models, and view the outputs from each model side by side.
 
 ### Example Prompts and Outputs
-| Prompt                                | Number of words to predict (LSTM/RNN) | Max Length (GPT-2) | Temperature (GPT-2) |
-|---------------------------------------|---------------------------------------|--------------------|---------------------|
-| no run, short ball, turning away      | 50                                    | 50                 | 0.7                 |
-| jumps down the track and              | 50                                    | 50                 | 0.7                 |
-| Another leg bye call. On the pads     | 50                                    | 50                 | 0.7                 |
-| That stays low, turns in, hits the pads | 50                                  | 50                 | 0.7                 |
-| goes flat, goes big                   | 50                                    | 50                 | 0.7                 |
+![alt text](hugging_space_cricket.png)
+
+[Hugging Face Link](https://huggingface.co/spaces/himanishprak23/Cricket-commentary-generation)
 
 ## Conclusion
 The comparative analysis of RNN, LSTM, GPT-2 base, and GPT-2 fine-tuned models provides insights into the strengths and weaknesses of each architecture for next-word prediction in cricket commentary. While transformer-based models like GPT-2 show superior performance, RNN and LSTM offer competitive results with simpler architectures.
