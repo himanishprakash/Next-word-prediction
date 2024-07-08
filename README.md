@@ -16,8 +16,10 @@ The dataset consists of 1000 rows of cricket commentary text, amounting to appro
 •⁠  ⁠*RNN Model*: A simple Recurrent Neural Network with a single hidden layer.
 ![alt text](rnn_architecture.png)
 •⁠  ⁠*LSTM Model*: An LSTM network with a single hidden layer to capture long-term dependencies.
+![alt text](LSTM_architecture.png)
 
 •⁠  ⁠*GPT-2 Base Model*: The pre-trained GPT-2 model without any fine-tuning.
+
 •⁠  ⁠*GPT-2 Fine-tuned Model*: The GPT-2 model was fine-tuned on the cricket commentary dataset for better domain-specific predictions.
 ![alt text](LSTM_architecture.png)
 
